@@ -48,18 +48,18 @@ body {
 
 .contatos{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	color: white;
 }
 
 .social{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	width:48px;
 	top:50px;
 }
 
 .copyrigth{
-	text-align: right;
+	flex-direction: column;
 	color: white;
 }
