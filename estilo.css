@@ -1,0 +1,65 @@
+header {
+	display: flex;
+	background-color: green;
+}
+nav ul {
+  display: flex;
+  margin: 0 0px;
+}
+nav li {
+	display: flex;
+    margin: 0 20px;
+}
+
+.lin{
+	padding: 26px;
+    font-family: 'arial';
+    font-size: 25pt;
+    transition: all .2s linear
+    color: #434343;
+}     
+.logo {
+	display: flex;
+	width: 150px;
+
+}
+.slogan{
+	display: flex;
+	color: yellow;
+    font-size: 40px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-style: bold;
+    margin: 20px 0px 0 300px;
+}	
+.fondo{
+	display: flex;
+	background-image: url(fondo.jpg);
+	height: 500px;
+	width: 1360px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+body {
+	background-color: black;
+	margin: 0px 0px 0 0px;
+}
+
+.contatos{
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+
+.social{
+	display: flex;
+	flex-direction: column;
+	width:48px;
+	top:50px;
+}
+
+.copyrigth{
+	text-align: right;
+	color: white;
+}
